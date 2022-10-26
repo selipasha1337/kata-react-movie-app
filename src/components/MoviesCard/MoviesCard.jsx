@@ -36,7 +36,7 @@ function MoviesCard({ movie }) {
     }
 
     void getTags()
-  }, [])
+  }, [setTags])
 
   const renderMovieTags = tags && tags.filter((tag) => movie.genre_ids.includes(tag.id))
 
