@@ -7,8 +7,7 @@ import MoviesSearch from './components/MoviesSearch/MoviesSearch'
 import MoviesCardList from './components/MoviesCardList/MoviesCardList'
 import MoviesPagination from './components/MoviesPagination/MoviesPagination'
 import MoviesService from './API/MoviesService'
-
-// TODO: tags to react.context
+import { TagsContext } from './context'
 
 function App() {
   const [movies, setMovies] = useState([])
@@ -37,21 +36,14 @@ function App() {
     void fetchMovies()
   }, [search])
 
-  useEffect(() => {
-    async function getTags() {
-      const tags = await MoviesService.getTags()
-      setTags(tags)
-    }
-
-    void getTags()
-  }, [])
-
   return (
     <div className="App">
       <Container>
         <MoviesTabs />
         <MoviesSearch setSearch={setSearch} />
-        <MoviesCardList movies={movies} loading={isMoviesLoading} tags={tags} />
+        <TagsContext.Provider value={{ tags, setTags }}>
+          <MoviesCardList movies={movies} loading={isMoviesLoading} />
+        </TagsContext.Provider>
         <MoviesPagination />
       </Container>
     </div>

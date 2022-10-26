@@ -1,7 +1,10 @@
 import { Col, Typography, Tag, Rate, Image } from 'antd'
 import { format, parseISO } from 'date-fns'
+import { useContext, useEffect } from 'react'
 
 import MoviesScore from '../MoviesScore/MoviesScore'
+import { TagsContext } from '../../context'
+import MoviesService from '../../API/MoviesService'
 
 import noPosterAvailable from './images/no-poster.jpg'
 
@@ -9,7 +12,9 @@ import './MoviesCard.css'
 
 const { Title, Text } = Typography
 
-function MoviesCard({ movie, tags }) {
+function MoviesCard({ movie }) {
+  const { tags, setTags } = useContext(TagsContext)
+
   const dateFormat = (date) => {
     return date ? format(parseISO(date), 'MMMMMM d, yyyy') : null
   }
@@ -23,6 +28,15 @@ function MoviesCard({ movie, tags }) {
 
     return data
   }
+
+  useEffect(() => {
+    async function getTags() {
+      const tags = await MoviesService.getTags()
+      setTags(tags)
+    }
+
+    void getTags()
+  }, [])
 
   const renderMovieTags = tags && tags.filter((tag) => movie.genre_ids.includes(tag.id))
 

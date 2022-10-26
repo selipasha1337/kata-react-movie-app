@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80d2b554-19db-4c47-9bce-88adef9c9ba9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/context/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.rcb.palette" />
+        <option value="com.haulmont.rcb.previews" />
+        <option value="com.haulmont.rcb.index" />
+        <option value="com.haulmont.rcb.useInitial" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="74a2943d-b24f-4b50-8b97-c893957bef80" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GOpNBiFaZ4HKejAFavMl2McQ9T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/ps/code/kata-react-movie-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_interpreter_path": "wsl://Ubuntu-20.04@/home/ps/.nvm/versions/node/v16.18.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu-20.04\\home\\ps\\code\\kata-react-movie-app\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Program Files\\WebStorm\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\ps\code\kata-react-movie-app\src\components\MoviesCard\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80d2b554-19db-4c47-9bce-88adef9c9ba9" name="Changes" comment="" />
+      <created>1666269441399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666269441399</updated>
+      <workItem from="1666269475359" duration="586000" />
+      <workItem from="1666270101048" duration="150000" />
+      <workItem from="1666270261783" duration="9122000" />
+      <workItem from="1666292808592" duration="1739000" />
+      <workItem from="1666339458128" duration="25838000" />
+      <workItem from="1666378818958" duration="9905000" />
+      <workItem from="1666436023213" duration="9000" />
+      <workItem from="1666436155055" duration="3006000" />
+      <workItem from="1666498293123" duration="15703000" />
+      <workItem from="1666577261486" duration="5918000" />
+      <workItem from="1666583625709" duration="10422000" />
+      <workItem from="1666595054999" duration="193000" />
+      <workItem from="1666597487292" duration="951000" />
+      <workItem from="1666598459593" duration="647000" />
+      <workItem from="1666611045640" duration="29000" />
+      <workItem from="1666611084170" duration="3780000" />
+      <workItem from="1666618794690" duration="5000" />
+      <workItem from="1666636284494" duration="12666000" />
+      <workItem from="1666676560605" duration="11000" />
+      <workItem from="1666687682854" duration="94000" />
+      <workItem from="1666722026022" duration="61000" />
+      <workItem from="1666724535249" duration="9045000" />
+      <workItem from="1666733786166" duration="6218000" />
+      <workItem from="1666774481171" duration="3709000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
