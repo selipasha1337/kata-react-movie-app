@@ -4,10 +4,10 @@ import MoviesCard from '../MoviesCard/MoviesCard'
 
 import styles from './MoviesCardList.module.css'
 
-function MoviesCardList({ movies, loading, error }) {
+function MoviesCardList({ movies, loading, error, setRatedMovies }) {
   const renderMovies = () => {
     return movies.map((movie) => {
-      return <MoviesCard movie={movie} key={movie.id} />
+      return <MoviesCard movie={movie} key={movie.id} setRatedMovies={setRatedMovies} />
     })
   }
 

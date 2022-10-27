@@ -1,6 +1,6 @@
 import { Col, Typography, Tag, Rate, Image } from 'antd'
 import { format, parseISO } from 'date-fns'
-import { useContext, useEffect } from 'react'
+import { useContext, useEffect, useState } from 'react'
 
 import MoviesScore from '../MoviesScore/MoviesScore'
 import { TagsContext } from '../../context'
@@ -14,6 +14,7 @@ const { Title, Text } = Typography
 
 function MoviesCard({ movie }) {
   const { tags, setTags } = useContext(TagsContext)
+  const [rate, setRate] = useState(0)
 
   const dateFormat = (date) => {
     return date ? format(parseISO(date), 'MMMMMM d, yyyy') : null
@@ -67,7 +68,7 @@ function MoviesCard({ movie }) {
         <div className="moviesCard__desc">
           <Text>{textFormat(movie.overview, 190)}</Text>
           <div className="moviesCard__rating">
-            <Rate allowHalf defaultValue={0} count={10} />
+            <Rate defaultValue={0} count={10} onChange={setRate} value={rate} allowHalf />
           </div>
         </div>
       </div>

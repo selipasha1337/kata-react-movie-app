@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="80d2b554-19db-4c47-9bce-88adef9c9ba9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/MoviesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/MoviesService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesPagination/MoviesPagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesPagination/MoviesPagination.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesPagination/MoviesPagination.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesPagination/MoviesPagination.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +107,7 @@
       <workItem from="1666733786166" duration="6218000" />
       <workItem from="1666774481171" duration="5338000" />
       <workItem from="1666809910731" duration="11746000" />
+      <workItem from="1666872041044" duration="2785000" />
     </task>
     <servers />
   </component>
